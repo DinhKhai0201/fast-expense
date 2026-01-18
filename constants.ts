@@ -50,7 +50,7 @@ export const CATEGORIES: Category[] = [
   { 
     id: 'health', 
     name: 'Sức khỏe', 
-    keywords: ['thuốc', 'medicine', 'khám', 'bệnh', 'gym', 'yoga', 'bác sĩ', 'doctor', 'nha khoa', 'dental', 'bảo hiểm', 'viện phí', 'xét nghiệm'], 
+    keywords: ['thuốc men', 'medicine', 'dược', 'khám', 'bệnh', 'gym', 'yoga', 'bác sĩ', 'doctor', 'nha khoa', 'dental', 'bảo hiểm y tế', 'viện phí', 'xét nghiệm', 'vitamin', 'thuốc bổ'], 
     color: '#34D399', // Emerald 400
     icon: 'Activity',
     emoji: '💊'
@@ -74,7 +74,7 @@ export const CATEGORIES: Category[] = [
   { 
     id: 'entertainment', 
     name: 'Giải trí', 
-    keywords: ['phim', 'cinema', 'netflix', 'spotify', 'youtube', 'game', 'du lịch', 'travel', 'vé', 'ticket', 'karaoke', 'chơi', 'bida', 'bowling', 'picnic', 'hotel', 'khách sạn'], 
+    keywords: ['phim', 'cinema', 'netflix', 'spotify', 'youtube', 'game', 'du lịch', 'travel', 'vé', 'ticket', 'karaoke', 'chơi', 'bida', 'bowling', 'picnic', 'hotel', 'khách sạn', 'thuốc lá', 'cigarette', 'bia', 'rượu', 'beer', 'wine', 'bar', 'pub', 'club'], 
     color: '#E879F9', // Fuchsia 400
     icon: 'Film',
     emoji: '🎮'
