@@ -142,6 +142,21 @@ const Settings: React.FC<SettingsProps> = ({ expenses, onImport, onClear, onBack
              <span>Offline Mode</span>
         </div>
       </div>
+
+      {/* Author Footer */}
+      <div className="flex justify-center mt-6 pb-4">
+        <a 
+          href="https://github.com/DinhKhai0201" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 text-xs text-gray-400 hover:text-indigo-500 transition-colors group"
+        >
+          <span>Made with</span>
+          <span className="text-rose-400 group-hover:text-rose-500 transition-colors">❤️</span>
+          <span>by</span>
+          <span className="font-semibold underline decoration-dotted">dinhkhai0201</span>
+        </a>
+      </div>
     </div>
   );
 };
